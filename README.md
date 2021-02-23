@@ -1,4 +1,37 @@
 # CrudFirebase
+Aplicacion web desarrollada en Angular
+
+ # Funcionalidad
+ * Listar datos.
+ * Crear datos.
+ * Actualizar datos.
+ * Eliminar datos.
+ * Usando Firebase como Backend.
+ 
+ # Lo que aprendí
+ * Uso del módulo HTTP.
+ * Uso de los servicios Restful de Firebase.
+ * POST, GET, DELETE, PUT.
+ * Configuraciones en la consola de Firebase.
+
+  ------------------------------------------------------------
+ # CrudFirebase
+ Web application developed in Angular
+
+ # Functionality
+ * List data.
+ * Create data.
+ * Update data.
+ * Delete data.
+ * Using Firebase as Backend.
+
+ # What I Learned
+ * How to use the HTTP module.
+ * How to use Firebase Restful services.
+ * POST, GET, DELETE, PUT.
+ * Settings in the Firebase console.
+
+ ------------------------------------------------------------
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.6.
 
