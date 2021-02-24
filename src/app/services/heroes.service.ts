@@ -25,7 +25,6 @@ export class HeroesService {
       ...heroe
     };
     delete heroeTemp.id;
-    console.log(heroeTemp);
     return this.http.put(`${this.url}/heroes/${heroe.id}.json`, heroeTemp);
   }
 }
