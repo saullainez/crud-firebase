@@ -14,6 +14,7 @@ import Swal from 'sweetalert2';
 export class HeroeComponent implements OnInit {
 
   heroe = new HeroeModel();
+  new = true;
 
   constructor(private heroesService: HeroesService, private route: ActivatedRoute) { }
 
@@ -21,6 +22,7 @@ export class HeroeComponent implements OnInit {
     const id = this.route.snapshot.paramMap.get('id');
     if(id !== 'nuevo'){
       this.heroesService.getHeroe(id).subscribe((resp: HeroeModel) => {
+        this.new = false;
         this.heroe = resp;
         this.heroe.id = id;
       });
